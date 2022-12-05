@@ -136,19 +136,21 @@ const main = () => {
         case 0: {
           break
         }
-        case 1:
-          // let whiteMochaVar = 0
+        case 1: {
           const whiteMocha = new WhiteChocolateMocha()
           await userOptions(whiteMocha)
           break
-        case 2:
+        }
+        case 2: {
           const darkMocha = new DarkChocolateMocha()
           await userOptions(darkMocha)
           break
-        case 3:
+        }
+        case 3: {
           const peppermintMocha = new PeppermintMocha()
           await userOptions(peppermintMocha)
           break
+        }
         default: {
           console.log('Option invalid, please choose from menu.')
           break
